@@ -4,8 +4,6 @@
     align-items: center;
     flex-direction: row;
     background-color: black;
-    border-top: 0.5rem solid #ECECEC;
-    border-bottom: 0.5rem solid #ECECEC;
     height: 15vh;
     width: 100vw;
     position: inherit;
