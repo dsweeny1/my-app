@@ -1,0 +1,14 @@
+.article-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

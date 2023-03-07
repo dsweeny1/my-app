@@ -1,0 +1,42 @@
+.footer-container {
+    display: flex;
+    align-items:flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-color: #010102;
+    height: 12.5vh;
+    width: 100vw;
+    position: relative;
+  }
+  
+  .name-container {
+    display: flex;
+    flex-direction: column;
+    width: 10vw;
+    position: absolute
+  }
+  
+  .name-tag {
+    color: #F6EEEB;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 1.2vw;
+    height: 2.5vh;
+    width: 10vw;
+    margin: -47%;
+    margin-left: -5%;
+    text-shadow: 0px 10px 5px rgb(95 70 80 / 59%);
+    position: inherit;
+  }
+  
+  .links-container {
+    filter: invert(87%) sepia(4%) saturate(834%) hue-rotate(318deg) brightness(113%) contrast(93%);
+    align-items: flex-end;
+    position: absolute;
+    margin: -28%;
+    margin-left: 18%;
+  }
+  
+  .link-logo {
+    height: 5vh;
+    position: inherit;
+  }
