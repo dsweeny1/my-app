@@ -3,15 +3,10 @@ import { Article } from '../App/App'
 import { ArticleCard } from '../../Components/ArticleCard/ArticleCard'
 import nytSymbol from '../../Images/nytSymbol.png'
 import './Articles.css'
-// src/Images/nytSymbol.png
+
 type ArticlesType = {
     articles: Array<Article>
 }
-
-// type FormProps = {
-//     articles: Article[]
-// }
-// //should this be a type/interface that describes the filtered articles instead?
 
 interface FilteredArticle {
     multimedia: any

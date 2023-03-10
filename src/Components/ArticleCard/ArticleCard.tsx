@@ -1,7 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import './ArticleCard.css'
-// import nytSymbol from '../../Images/nytSymbol.png'
 
     type ArticleType = {
     multimedia: any
